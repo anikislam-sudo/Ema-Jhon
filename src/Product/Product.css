@@ -3,6 +3,7 @@
     height: 510px;
     border: 2px solid grey;
     border-radius: 8px;
+    position: relative;
 }
 .product img{
     height: 286px;
@@ -10,8 +11,12 @@
     margin: 7px;
     border-radius: 8px;
 }
+.product-info p{
+    margin-top: 5px;
+    margin-bottom: 0;
+}
 .product-info{
-    margin: 14px;
+    margin: 0 14px;
 }
 .product-name{
     font-family:"lato";
@@ -19,4 +24,22 @@
     font-weight: 400;
     font-size: 21px;
     line-height: 25px;
+    margin-top: 7px;
+}
+.button-info{
+ width: 100%;
+ background-color: #FFE0B3;
+ border-radius: 0px 0px 8px 8px;
+ position: absolute;
+ border: none;
+ bottom: 0px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.button-info .add-text{
+    margin-right: 5px;
+}
+.button-info:hover{
+    background-color: orange;
 }
